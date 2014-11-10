@@ -1,4 +1,4 @@
-class setup($node_version = "v0.10.26") {
+class setup($node_version = "v0.10.31") {
   # Add some default path values
   Exec { path => ['/usr/local/bin','/usr/local/sbin','/usr/bin/','/usr/sbin','/bin','/sbin', "/home/vagrant/nvm/${node_version}/bin"], }
 
@@ -26,7 +26,7 @@ class setup($node_version = "v0.10.26") {
   }
 
   # Global npm modules
-  npm { ["nodemon", "node-inspector"]:
+  npm { ["nodemon", "node-inspector", "sails", "forever"]:
   }
 
   # Make sure our code directory has proper permissions

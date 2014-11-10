@@ -1,6 +1,6 @@
 # Inspired by https://github.com/TryGhost/Ghost-Vagrant/blob/master/manifests/base.pp
 
-$node_version = "v0.10.26"
+$node_version = "v0.10.31"
 
 file { '/etc/motd':
 	content => "
@@ -8,7 +8,7 @@ file { '/etc/motd':
 
   Node Development Virtual Machine
 
-- OS:      Ubuntu 12.04
+- OS:      Ubuntu 14.04
 - Node:    ${node_version}
 - IP:      192.168.33.20
 
