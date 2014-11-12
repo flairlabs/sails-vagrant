@@ -26,7 +26,7 @@ class setup($node_version = "v0.10.31") {
   }
 
   # Global npm modules
-  npm { ["nodemon", "node-inspector", "sails", "forever"]:
+  npm { ["nodemon", "node-inspector", "grunt-cli", "sails", "forever"]:
   }
 
   # Make sure our code directory has proper permissions

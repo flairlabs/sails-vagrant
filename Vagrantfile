@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # doesn't already exist on the user's system.
   #config.vm.box_url = "https://vagrantcloud.com/hashicorp/precise64/version/2/provider/virtualbox.box"
 
-  config.vm.hostname = "sailes-vagrant-machine"
+  config.vm.hostname = "sails-vagrant-machine"
 
   # Add port-forward for Node-inspector
   config.vm.network "forwarded_port", guest: 5858, host: 5858
