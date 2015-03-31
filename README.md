@@ -10,8 +10,8 @@ or configure Node.js or Sails.js.
 
 ###  Install Vagrant ###
 
-- Download and install [VirtualBox 4.3.12](https://www.virtualbox.org/wiki/Download_Old_Builds_4_3)
-- Download and install [Vagrant 1.6.4](https://www.vagrantup.com/download-archive/v1.6.4.html) or better
+- Download and install [VirtualBox 4.3.20](https://www.virtualbox.org/wiki/Download_Old_Builds_4_3)
+- Download and install [Vagrant 1.7.1](https://www.vagrantup.com/download-archive/v1.7.1.html) or better
 
 #### Windows Users ####
 
